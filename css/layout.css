@@ -1,0 +1,58 @@
+.inner {
+    max-width: 141rem;
+    margin: 0 auto;
+}
+
+.w_inner {
+    max-width: calc((100% - 141rem)/2 + 141rem);
+}
+
+.w_inner.r {
+    margin-left: auto;
+}
+
+.w_inner.l {
+    margin-right: auto;
+}
+
+.default {
+    padding: 8rem 0;
+}
+
+.default .title {
+    max-width: 141rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.default .title h2 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.default .title h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.default .title p {
+    margin-top: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+.default_btn {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+
+    height: 8rem;
+
+
+    color: var(--white-color);
+    margin-top: 32px;
+    font-weight: 500;
+}
