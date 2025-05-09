@@ -373,8 +373,8 @@ body {
 }
 
 .main_info .page span {
-    width: 16px;
-    height: 16px;
+    width: 8px;
+    height: 8px;
     background: #5697ad;
     border-radius: 8px;
     opacity: 1;
@@ -535,6 +535,7 @@ body {
     display: flex;
     right: 240px;
     bottom: 200px;
+
 }
 
 #footer .sns a img {
